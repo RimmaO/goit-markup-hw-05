@@ -92,7 +92,7 @@ img {
 }
 
 .container {
-  max-width: calc(1128px + 15px + 15px);
+  width: calc(1128px + 15px + 15px);
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -266,7 +266,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  /*  щоб забрати border від браузера */
+  border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--hero-title-btn-color);
